@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc01.proyecto1.MainActivity">
+
+    <Button
+        android:text="Suma"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnSuma"
+        android:background="@android:drawable/btn_star_big_on"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:text="DIVISION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDivision"
+        android:background="@android:drawable/arrow_down_float"
+        android:layout_below="@+id/btnSuma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    <Button
+        android:text="MULTIPLICACION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMultiplicaicon"
+        android:background="@android:drawable/btn_dialog"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="RESTA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResta"
+        android:background="@android:drawable/btn_star_big_off"
+        android:layout_below="@+id/btnMultiplicaicon"
+        android:layout_alignLeft="@+id/btnDivision"
+        android:layout_alignStart="@+id/btnDivision"
+        android:layout_marginTop="48dp" />
+</RelativeLayout>
